@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hamza Eren Sarpdağ's personal portfolio website showcasing resume, projects and contact info.">
+    <meta name="author" content="Hamza Eren Sarpdağ">
+    <title>Hamza Eren Sarpdağ - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">HES</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h1>Hamza Eren Sarpdağ</h1>
+            <p class="subtitle">Computer Engineering Student</p>
+            <p class="description">
+                I'm Hamza Eren Sarpdağ, a Computer Engineering student at Balıkesir University in Turkey. 
+                I'm passionate about software development, especially backend systems, APIs, and AI-related technologies. 
+                I love learning and building useful digital products.
+            </p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            
+            <div class="resume-section">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>Balıkesir University</h4>
+                    <p>Computer Engineering</p>
+                    <span class="resume-date">2022 - Present</span>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Work Experience</h3>
+                <div class="resume-item">
+                    <h4>Backend Developer Intern</h4>
+                    <p>Türkiye Yazılım Araştırma ve Eğitim A.Ş.</p>
+                    <p class="learning-outcomes">
+                        • Developed and maintained RESTful APIs using Flask and PostgreSQL<br>
+                        • Implemented Docker containerization for microservices<br>
+                        • Learned the practices in code review and version control
+                    </p>
+                    <span class="resume-date">February 2025 - Present</span>
+                </div>
+
+                <div class="resume-item">
+                    <h4>Software Development Intern</h4>
+                    <p>Federal Mogul Powertrain Turkey</p>
+                    <p class="learning-outcomes">
+                        • Assisted users with technical issues, improving troubleshooting and communication skills<br>
+                        • Learned to document support requests and escalate problems effectively<br>
+                        • Participated in decommissioning and secure disposal of old computer hardware
+                    </p>
+                    <span class="resume-date">July 2024 - August 2024</span>
+                </div>
+            </div>
+
+            <div class="resume-section">
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>Javascript</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li>Flask</li>
+                            <li>Docker</li>
+                            <li>PostgreSQL</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects-container">
+                <div class="projects-grid">
+                    <!-- First Set -->
+                    <div class="project-card">
+                        <h3>QuantaBot</h3>
+                        <p>A desktop chatbot application powered by natural language processing. Users can chat through an Electron-based UI, and conversations are stored in Firebase for history tracking.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Electron</span>
+                            <span>OpenAI API</span>
+                            <span>Firebase Realtime Database</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/QuantaBot" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>ReviewScrapper</h3>
+                        <p>A web scraping project that extracts product and review data from e-commerce websites for storage and analysis.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Selenium</span>
+                            <span>BeautifulSoup</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>MatchingApp</h3>
+                        <p>A simple matching game designed to help English learners practice vocabulary while introducing them to GUI development with Python. The project also served as an educational example for using Tkinter.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/MatchingApp" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Mini Sumo Robot</h3>
+                        <p>An autonomous mini sumo robot developed for participation in a robotics competition. The robot was built using Arduino and sensor-based control to detect and push opponents out of the arena.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>IR Sensors</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/MiniSumoBot" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Teknofest Robolig Project</h3>
+                        <p>A task-oriented ground vehicle developed for the Teknofest Robolig competition. Reached the finals in 2024, ranked 11th. The 2025 version is under development in a local pre-incubation program.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>Deneyap Board</span>
+                        </div>
+                        <a href="https://drdogrulama.sanayi.gov.tr/tr/verify/79205877117241/" class="github-link">View Certificate</a>
+                    </div>
+
+                    <!-- Duplicate Set for Seamless Loop -->
+                    <div class="project-card">
+                        <h3>QuantaBot</h3>
+                        <p>A desktop chatbot application powered by natural language processing. Users can chat through an Electron-based UI, and conversations are stored in Firebase for history tracking.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Electron</span>
+                            <span>OpenAI API</span>
+                            <span>Firebase Realtime Database</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/QuantaBot" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>ReviewScrapper</h3>
+                        <p>A web scraping project that extracts product and review data from e-commerce websites for storage and analysis.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Selenium</span>
+                            <span>BeautifulSoup</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>MatchingApp</h3>
+                        <p>A simple matching game designed to help English learners practice vocabulary while introducing them to GUI development with Python. The project also served as an educational example for using Tkinter.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/MatchingApp" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Mini Sumo Robot</h3>
+                        <p>An autonomous mini sumo robot developed for participation in a robotics competition. The robot was built using Arduino and sensor-based control to detect and push opponents out of the arena.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>IR Sensors</span>
+                        </div>
+                        <a href="https://github.com/Hamza-Eren/MiniSumoBot" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Teknofest Robolig Project</h3>
+                        <p>A task-oriented ground vehicle developed for the Teknofest Robolig competition. Reached the finals in 2024, ranked 11th. The 2025 version is under development in a local pre-incubation program.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>Deneyap Board</span>
+                        </div>
+                        <a href="https://drdogrulama.sanayi.gov.tr/tr/verify/79205877117241/" class="github-link">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:herensarpdag@gmail.com">herensarpdag@gmail.com</a>
+                        <p>Feel free to reach out for collaborations or opportunities</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/hamza-eren-sarpdag/" target="_blank">Hamza Eren Sarpdağ</a>
+                        <p>Connect with me for professional networking</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Hamza-Eren" target="_blank">@Hamza-Eren</a>
+                        <p>Check out my projects and contributions</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/H4mz4Eren" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hamz_eren/" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://medium.com/@Hamza_Eren" target="_blank" title="Medium">
+                            <i class="fa-brands fa-medium"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hamza Eren Sarpdağ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
